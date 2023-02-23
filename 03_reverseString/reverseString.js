@@ -1,4 +1,6 @@
-const reverseString = function() {
+const reverseString = function(toReverse) {
+
+    return toReverse.slice(-1, -toReverse.length)
 
 };
 
