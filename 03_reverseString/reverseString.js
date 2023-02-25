@@ -5,6 +5,7 @@ const reverseString = function (toReverse) {
     for (let i in toReverse) {
         stringArr.push(toReverse[i])
     }
+
     stringArr.reverse()
     for (let i in stringArr) {
         reversedString+= stringArr[i]
